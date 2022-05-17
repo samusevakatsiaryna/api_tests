@@ -1,0 +1,11 @@
+{
+    "firstname": "Katya",
+    "lastname": "Tester",
+    "totalprice": 100,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-01-01",
+        "checkout": "2022-02-01"
+    },
+    "additionalneeds": "Breanfast"
+}

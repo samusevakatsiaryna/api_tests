@@ -1,0 +1,27 @@
+{
+  "name": "api_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samusevakatsiaryna/api_tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samusevakatsiaryna/api_tests/issues"
+  },
+  "homepage": "https://github.com/samusevakatsiaryna/api_tests#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chai-json-schema": "^1.5.1",
+    "express": "^4.18.1",
+    "mocha": "^10.0.0",
+    "nock": "^13.2.4",
+    "supertest": "^6.2.3"
+  }
+}
