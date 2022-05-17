@@ -15,7 +15,7 @@ describe("Booking API Tests", () => {
     const baseUrl = 'https://restful-booker.herokuapp.com';
     let bookingid;
     let token;
-    let bookingItme;
+    let bookingItem;
 
     before(function(done) {
         request(baseUrl)
@@ -30,7 +30,7 @@ describe("Booking API Tests", () => {
                 done();
             })
     }) 
-    
+
     it("Create Booking", (done) => {
         request(baseUrl)
             .post('/booking')
